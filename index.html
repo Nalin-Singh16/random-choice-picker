@@ -1,0 +1,42 @@
+<!-- The DOCTYPE declaration specifies the document type and version of HTML -->
+<!DOCTYPE html>
+
+<!-- The opening tag for the HTML document with the lang attribute set to "en" (English) -->
+<html lang="en">
+
+<head>
+    <!-- Set the character encoding for the document to UTF-8 -->
+    <meta charset="UTF-8">
+
+    <!-- Set the viewport configuration for responsive design -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Set the title of the webpage displayed in the browser tab -->
+    <title>Random Choice Picker</title>
+
+    <!-- Link to an external stylesheet (styles.css) for styling the webpage -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <!-- Create a container div to structure the content of the webpage -->
+    <div class="container">
+
+        <!-- Heading level 3 with text "Enter all your choices divided by a comma (',')." -->
+        <h3>Enter all your choices divided by a comma (',').</h3>
+
+        <!-- Paragraph with the instruction "Press enter when you are done" -->
+        <p>Press enter when you are done</p>
+
+        <!-- Textarea element for user input with a placeholder and an id of "textarea" -->
+        <textarea placeholder="Enter choices here...." id="textarea"></textarea>
+
+        <!-- A div with an id of "tags" where dynamically created tags will be displayed -->
+        <div id="tags"></div>
+    </div>
+
+    <!-- Link to an external JavaScript file (script.js) for scripting and interaction -->
+    <script src="script.js"></script>
+</body>
+
+</html>

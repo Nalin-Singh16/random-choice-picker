@@ -1,0 +1,107 @@
+/* Apply box-sizing to all elements to include padding and borders in the element's total width and height */
+* {
+    box-sizing: border-box;
+}
+
+/* Style for the entire body of the webpage */
+body {
+    /* Set the background color to a blue shade */
+    background-color: #2b88f0;
+
+    /* Set the font family for the entire body */
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+    /* Use flex display to vertically center content */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    /* Set the height of the body to 100% of the viewport height */
+    height: 100vh;
+
+    /* Hide overflow content beyond the viewport */
+    overflow: hidden;
+
+    /* Remove default margin */
+    margin: 0;
+}
+
+/* Style for heading level 3 and paragraph elements */
+h3,
+p {
+    /* Set text color to white */
+    color: white;
+
+    /* Set margin around the elements */
+    margin: 10px 0 10px;
+}
+
+/* Style for heading level 3 */
+h3 {
+    /* Center-align text */
+    text-align: center;
+}
+
+/* Style for the container div */
+.container {
+    /* Set the width of the container to fit its content */
+    width: fit-content;
+}
+
+/* Style for the textarea element with the ID 'textarea' */
+#textarea {
+    /* Remove border */
+    border: none;
+
+    /* Display as a block element */
+    display: block;
+
+    /* Take up 100% width of its container */
+    width: 100%;
+
+    /* Set the height of the textarea */
+    height: 100px;
+
+    /* Inherit font family from the parent element */
+    font-family: inherit;
+
+    /* Add padding around the textarea */
+    padding: 10px;
+
+    /* Set margin around the textarea */
+    margin: 0 0 20px;
+
+    /* Set font size for the textarea */
+    font-size: 16px;
+}
+
+/* Style for the tags used in the application */
+.tag {
+    /* Set background color for the tag */
+    background-color: #f0932b;
+
+    /* Set text color for the tag */
+    color: white;
+
+    /* Add border-radius for rounded corners */
+    border-radius: 50px;
+
+    /* Add padding around the tag */
+    padding: 10px 20px;
+
+    /* Set margin around the tag */
+    margin: 0 5px 10px 0;
+
+    /* Set font size for the tag */
+    font-size: 14px;
+
+    /* Display as an inline element */
+    display: inline;
+}
+
+/* Style for highlighted tags */
+.tag.highlight {
+    /* Change background color for highlighted tags */
+    background-color: #273c75;
+}
